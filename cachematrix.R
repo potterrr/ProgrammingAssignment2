@@ -2,7 +2,6 @@
 ## There are several functions (makeCacheMatrix
 ## function has 5 functions embeded in it)
 
-## Write a short comment describing this function
 
 makeCacheMatrix <- function(x = matrix()) {
 
@@ -29,3 +28,8 @@ makeVector <- function(x = numeric()) {         ## makeVector comes from rdpeng 
 cacheSolve <- function(x, ...) {
         ## solve(x) is the function that
 	## creates the inverse
+	solve(x)
+}
+x <- matrix(1:4, nrow=2, ncol=2)
+print(x)
+print(solve(x))
