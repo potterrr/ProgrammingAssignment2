@@ -1,5 +1,6 @@
-## Put comments here that give an overall description of what your
-## functions do
+## This script is for Assignment 2.  
+## There are several functions (makeCacheMatrix
+## function has 5 functions embeded in it)
 
 ## Write a short comment describing this function
 
@@ -23,8 +24,8 @@ makeVector <- function(x = numeric()) {         ## makeVector comes from rdpeng 
              getmean = getmean)
 }
 
-## Write a short comment describing this function
+## solve(x) inverts a matrix
 
 cacheSolve <- function(x, ...) {
-        ## Return a matrix that is the inverse of 'x'
-}
+        ## solve(x) is the function that
+	## creates the inverse
