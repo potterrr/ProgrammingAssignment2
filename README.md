@@ -1,4 +1,5 @@
 ### Introduction
+This Programming Assignment is 2nd in the Programming R course.  I have a new program I am testing called "cachematrix.R"  Date is 2/18/2016.  RP
 
 This second programming assignment will require you to write an R
 function that is able to cache potentially time-consuming computations.
