@@ -4,6 +4,29 @@
 ## This script is for Assignment 2.  
 ## There are several functions (makeCacheMatrix
 ## function has 5 functions embeded in it)
+## In order to test this function, 
+## source('C:/D/working-docs/coursera/cachematrix.R')
+## v <-- makeMatrix(matrix(c(1,2,3,4), nrow=2))
+#  v$get()
+##          [,1]  [,2]
+##  [1, ]   1       3
+##  [2, ]   2       4
+## v$getsolve()
+## NULL
+## cachesolve(v)
+##          [, 1]   [,2]
+##  [1,]    -2      1.5
+##  [2,]    1       -0.5
+#v$getsolve()
+##        [,1]    [,2]
+## [1,]     -2      1.5
+## [2,]     1       -0.5
+## cachesolve(v)
+## getting cached inverse
+##      [, 1]   [,2]
+##  [1,]    -2  1.5
+##  [2,]    1   [-0.5]
+
 
 makeMatrix <- function(x=matrix()) {
     m <- NULL
