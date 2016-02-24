@@ -4,7 +4,7 @@
 ## This script is for Assignment 2.  
 ## There are several functions (makeCacheMatrix
 ## function has 5 functions embeded in it)
-## In order to test this function, 
+## In order to test this function, these are examples of commands: 
 ## source('C:/D/working-docs/coursera/cachematrix.R')
 ## v <-- makeMatrix(matrix(c(1,2,3,4), nrow=2))
 #  v$get()
